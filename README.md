@@ -21,7 +21,7 @@ You can learn more about the project at the [Flynn website](https://flynn.io).
 
 ### Status
 
-Flynn is in active development and **currently unsuitable for production** use.
+Flynn is in active development and **cuflrrently unsuitable for production** use.
 
 Users are encouraged to experiment with Flynn but should assume there are
 stability, security, and performance weaknesses throughout the project. This
@@ -143,8 +143,8 @@ every node IP address and a second, wildcard domain CNAME to the cluster domain.
 respective domains.
 
 ```text
-  CONTROLLER_DOMAIN=demo.flynnlocal.com \
-  DEFAULT_ROUTE_DOMAIN=demo.flynnlocal.com \
+  CONTROLLER_DOMAIN=demo.localflynn.com \
+  DEFAULT_ROUTE_DOMAIN=demo.localflynn.com \
   flynn-bootstrap /etc/flynn/bootstrap-manifest.json
 ```
 
